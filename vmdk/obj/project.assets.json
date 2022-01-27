@@ -1,0 +1,2393 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.0": {
+      "DiscUtils/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.BootConfig": "0.16.13",
+          "DiscUtils.Btrfs": "0.16.13",
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Dmg": "0.16.13",
+          "DiscUtils.Ext": "0.16.13",
+          "DiscUtils.Fat": "0.16.13",
+          "DiscUtils.HfsPlus": "0.16.13",
+          "DiscUtils.Iscsi": "0.16.13",
+          "DiscUtils.Iso9660": "0.16.13",
+          "DiscUtils.Lvm": "0.16.13",
+          "DiscUtils.Net": "0.16.13",
+          "DiscUtils.Nfs": "0.16.13",
+          "DiscUtils.Ntfs": "0.16.13",
+          "DiscUtils.OpticalDiscSharing": "0.16.13",
+          "DiscUtils.OpticalDisk": "0.16.13",
+          "DiscUtils.Registry": "0.16.13",
+          "DiscUtils.Sdi": "0.16.13",
+          "DiscUtils.SquashFs": "0.16.13",
+          "DiscUtils.Swap": "0.16.13",
+          "DiscUtils.Udf": "0.16.13",
+          "DiscUtils.Vdi": "0.16.13",
+          "DiscUtils.Vhd": "0.16.13",
+          "DiscUtils.Vhdx": "0.16.13",
+          "DiscUtils.Vmdk": "0.16.13",
+          "DiscUtils.Wim": "0.16.13",
+          "DiscUtils.Xfs": "0.16.13",
+          "DiscUtils.Xva": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.dll": {}
+        }
+      },
+      "DiscUtils.BootConfig/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Registry": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.BootConfig.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.BootConfig.dll": {}
+        }
+      },
+      "DiscUtils.Btrfs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Streams": "0.16.13",
+          "lzo.net": "0.0.3"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Btrfs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Btrfs.dll": {}
+        }
+      },
+      "DiscUtils.Core/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Streams": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Core.dll": {}
+        }
+      },
+      "DiscUtils.Dmg/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "lzfse-net": "1.0.15"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Dmg.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Dmg.dll": {}
+        }
+      },
+      "DiscUtils.Ext/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Ext.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Ext.dll": {}
+        }
+      },
+      "DiscUtils.Fat/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Fat.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Fat.dll": {}
+        }
+      },
+      "DiscUtils.HfsPlus/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.HfsPlus.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.HfsPlus.dll": {}
+        }
+      },
+      "DiscUtils.Iscsi/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Iscsi.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Iscsi.dll": {}
+        }
+      },
+      "DiscUtils.Iso9660/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Iso9660.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Iso9660.dll": {}
+        }
+      },
+      "DiscUtils.Lvm/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Lvm.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Lvm.dll": {}
+        }
+      },
+      "DiscUtils.Net/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Net.dll": {}
+        }
+      },
+      "DiscUtils.Nfs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Nfs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Nfs.dll": {}
+        }
+      },
+      "DiscUtils.Ntfs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Ntfs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Ntfs.dll": {}
+        }
+      },
+      "DiscUtils.OpticalDiscSharing/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Net": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.OpticalDiscSharing.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.OpticalDiscSharing.dll": {}
+        }
+      },
+      "DiscUtils.OpticalDisk/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Iso9660": "0.16.13",
+          "DiscUtils.Udf": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.OpticalDisk.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.OpticalDisk.dll": {}
+        }
+      },
+      "DiscUtils.Registry/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Streams": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Registry.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Registry.dll": {}
+        }
+      },
+      "DiscUtils.Sdi/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Sdi.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Sdi.dll": {}
+        }
+      },
+      "DiscUtils.SquashFs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.SquashFs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.SquashFs.dll": {}
+        }
+      },
+      "DiscUtils.Streams/0.16.13": {
+        "type": "package",
+        "compile": {
+          "lib/net40/DiscUtils.Streams.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Streams.dll": {}
+        }
+      },
+      "DiscUtils.Swap/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Swap.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Swap.dll": {}
+        }
+      },
+      "DiscUtils.Udf/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Iso9660": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Udf.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Udf.dll": {}
+        }
+      },
+      "DiscUtils.Vdi/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Vdi.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Vdi.dll": {}
+        }
+      },
+      "DiscUtils.Vhd/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Vhd.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Vhd.dll": {}
+        }
+      },
+      "DiscUtils.Vhdx/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Vhdx.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Vhdx.dll": {}
+        }
+      },
+      "DiscUtils.Vmdk/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Vmdk.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Vmdk.dll": {}
+        }
+      },
+      "DiscUtils.Wim/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Wim.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Wim.dll": {}
+        }
+      },
+      "DiscUtils.Xfs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Xfs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Xfs.dll": {}
+        }
+      },
+      "DiscUtils.Xva/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Xva.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Xva.dll": {}
+        }
+      },
+      "ILMerge/3.0.41": {
+        "type": "package",
+        "build": {
+          "build/ILMerge.props": {}
+        }
+      },
+      "ILMerge.MSBuild.Task/1.0.7": {
+        "type": "package",
+        "build": {
+          "build/ILMerge.MSBuild.Task.targets": {}
+        }
+      },
+      "lzfse-net/1.0.15": {
+        "type": "package",
+        "compile": {
+          "lib/net40/lzfse-net.dll": {}
+        },
+        "runtime": {
+          "lib/net40/lzfse-net.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/liblzfse.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-musl-x64/native/liblzfse.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-x64/native/liblzfse.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/liblzfse.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/lzfse.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/lzfse.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "lzo.net/0.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net40/lzo.net.dll": {}
+        },
+        "runtime": {
+          "lib/net40/lzo.net.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0/win": {
+      "DiscUtils/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.BootConfig": "0.16.13",
+          "DiscUtils.Btrfs": "0.16.13",
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Dmg": "0.16.13",
+          "DiscUtils.Ext": "0.16.13",
+          "DiscUtils.Fat": "0.16.13",
+          "DiscUtils.HfsPlus": "0.16.13",
+          "DiscUtils.Iscsi": "0.16.13",
+          "DiscUtils.Iso9660": "0.16.13",
+          "DiscUtils.Lvm": "0.16.13",
+          "DiscUtils.Net": "0.16.13",
+          "DiscUtils.Nfs": "0.16.13",
+          "DiscUtils.Ntfs": "0.16.13",
+          "DiscUtils.OpticalDiscSharing": "0.16.13",
+          "DiscUtils.OpticalDisk": "0.16.13",
+          "DiscUtils.Registry": "0.16.13",
+          "DiscUtils.Sdi": "0.16.13",
+          "DiscUtils.SquashFs": "0.16.13",
+          "DiscUtils.Swap": "0.16.13",
+          "DiscUtils.Udf": "0.16.13",
+          "DiscUtils.Vdi": "0.16.13",
+          "DiscUtils.Vhd": "0.16.13",
+          "DiscUtils.Vhdx": "0.16.13",
+          "DiscUtils.Vmdk": "0.16.13",
+          "DiscUtils.Wim": "0.16.13",
+          "DiscUtils.Xfs": "0.16.13",
+          "DiscUtils.Xva": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.dll": {}
+        }
+      },
+      "DiscUtils.BootConfig/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Registry": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.BootConfig.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.BootConfig.dll": {}
+        }
+      },
+      "DiscUtils.Btrfs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Streams": "0.16.13",
+          "lzo.net": "0.0.3"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Btrfs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Btrfs.dll": {}
+        }
+      },
+      "DiscUtils.Core/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Streams": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Core.dll": {}
+        }
+      },
+      "DiscUtils.Dmg/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "lzfse-net": "1.0.15"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Dmg.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Dmg.dll": {}
+        }
+      },
+      "DiscUtils.Ext/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Ext.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Ext.dll": {}
+        }
+      },
+      "DiscUtils.Fat/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Fat.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Fat.dll": {}
+        }
+      },
+      "DiscUtils.HfsPlus/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.HfsPlus.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.HfsPlus.dll": {}
+        }
+      },
+      "DiscUtils.Iscsi/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Iscsi.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Iscsi.dll": {}
+        }
+      },
+      "DiscUtils.Iso9660/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Iso9660.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Iso9660.dll": {}
+        }
+      },
+      "DiscUtils.Lvm/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Lvm.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Lvm.dll": {}
+        }
+      },
+      "DiscUtils.Net/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Net.dll": {}
+        }
+      },
+      "DiscUtils.Nfs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Nfs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Nfs.dll": {}
+        }
+      },
+      "DiscUtils.Ntfs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Ntfs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Ntfs.dll": {}
+        }
+      },
+      "DiscUtils.OpticalDiscSharing/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Net": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.OpticalDiscSharing.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.OpticalDiscSharing.dll": {}
+        }
+      },
+      "DiscUtils.OpticalDisk/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Iso9660": "0.16.13",
+          "DiscUtils.Udf": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.OpticalDisk.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.OpticalDisk.dll": {}
+        }
+      },
+      "DiscUtils.Registry/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Streams": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Registry.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Registry.dll": {}
+        }
+      },
+      "DiscUtils.Sdi/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Sdi.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Sdi.dll": {}
+        }
+      },
+      "DiscUtils.SquashFs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.SquashFs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.SquashFs.dll": {}
+        }
+      },
+      "DiscUtils.Streams/0.16.13": {
+        "type": "package",
+        "compile": {
+          "lib/net40/DiscUtils.Streams.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Streams.dll": {}
+        }
+      },
+      "DiscUtils.Swap/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Swap.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Swap.dll": {}
+        }
+      },
+      "DiscUtils.Udf/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Iso9660": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Udf.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Udf.dll": {}
+        }
+      },
+      "DiscUtils.Vdi/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Vdi.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Vdi.dll": {}
+        }
+      },
+      "DiscUtils.Vhd/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Vhd.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Vhd.dll": {}
+        }
+      },
+      "DiscUtils.Vhdx/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Vhdx.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Vhdx.dll": {}
+        }
+      },
+      "DiscUtils.Vmdk/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Vmdk.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Vmdk.dll": {}
+        }
+      },
+      "DiscUtils.Wim/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Wim.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Wim.dll": {}
+        }
+      },
+      "DiscUtils.Xfs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Xfs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Xfs.dll": {}
+        }
+      },
+      "DiscUtils.Xva/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Xva.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Xva.dll": {}
+        }
+      },
+      "ILMerge/3.0.41": {
+        "type": "package",
+        "build": {
+          "build/ILMerge.props": {}
+        }
+      },
+      "ILMerge.MSBuild.Task/1.0.7": {
+        "type": "package",
+        "build": {
+          "build/ILMerge.MSBuild.Task.targets": {}
+        }
+      },
+      "lzfse-net/1.0.15": {
+        "type": "package",
+        "compile": {
+          "lib/net40/lzfse-net.dll": {}
+        },
+        "runtime": {
+          "lib/net40/lzfse-net.dll": {}
+        }
+      },
+      "lzo.net/0.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net40/lzo.net.dll": {}
+        },
+        "runtime": {
+          "lib/net40/lzo.net.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0/win-x64": {
+      "DiscUtils/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.BootConfig": "0.16.13",
+          "DiscUtils.Btrfs": "0.16.13",
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Dmg": "0.16.13",
+          "DiscUtils.Ext": "0.16.13",
+          "DiscUtils.Fat": "0.16.13",
+          "DiscUtils.HfsPlus": "0.16.13",
+          "DiscUtils.Iscsi": "0.16.13",
+          "DiscUtils.Iso9660": "0.16.13",
+          "DiscUtils.Lvm": "0.16.13",
+          "DiscUtils.Net": "0.16.13",
+          "DiscUtils.Nfs": "0.16.13",
+          "DiscUtils.Ntfs": "0.16.13",
+          "DiscUtils.OpticalDiscSharing": "0.16.13",
+          "DiscUtils.OpticalDisk": "0.16.13",
+          "DiscUtils.Registry": "0.16.13",
+          "DiscUtils.Sdi": "0.16.13",
+          "DiscUtils.SquashFs": "0.16.13",
+          "DiscUtils.Swap": "0.16.13",
+          "DiscUtils.Udf": "0.16.13",
+          "DiscUtils.Vdi": "0.16.13",
+          "DiscUtils.Vhd": "0.16.13",
+          "DiscUtils.Vhdx": "0.16.13",
+          "DiscUtils.Vmdk": "0.16.13",
+          "DiscUtils.Wim": "0.16.13",
+          "DiscUtils.Xfs": "0.16.13",
+          "DiscUtils.Xva": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.dll": {}
+        }
+      },
+      "DiscUtils.BootConfig/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Registry": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.BootConfig.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.BootConfig.dll": {}
+        }
+      },
+      "DiscUtils.Btrfs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Streams": "0.16.13",
+          "lzo.net": "0.0.3"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Btrfs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Btrfs.dll": {}
+        }
+      },
+      "DiscUtils.Core/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Streams": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Core.dll": {}
+        }
+      },
+      "DiscUtils.Dmg/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "lzfse-net": "1.0.15"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Dmg.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Dmg.dll": {}
+        }
+      },
+      "DiscUtils.Ext/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Ext.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Ext.dll": {}
+        }
+      },
+      "DiscUtils.Fat/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Fat.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Fat.dll": {}
+        }
+      },
+      "DiscUtils.HfsPlus/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.HfsPlus.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.HfsPlus.dll": {}
+        }
+      },
+      "DiscUtils.Iscsi/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Iscsi.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Iscsi.dll": {}
+        }
+      },
+      "DiscUtils.Iso9660/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Iso9660.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Iso9660.dll": {}
+        }
+      },
+      "DiscUtils.Lvm/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Lvm.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Lvm.dll": {}
+        }
+      },
+      "DiscUtils.Net/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Net.dll": {}
+        }
+      },
+      "DiscUtils.Nfs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Nfs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Nfs.dll": {}
+        }
+      },
+      "DiscUtils.Ntfs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Ntfs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Ntfs.dll": {}
+        }
+      },
+      "DiscUtils.OpticalDiscSharing/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Net": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.OpticalDiscSharing.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.OpticalDiscSharing.dll": {}
+        }
+      },
+      "DiscUtils.OpticalDisk/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Iso9660": "0.16.13",
+          "DiscUtils.Udf": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.OpticalDisk.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.OpticalDisk.dll": {}
+        }
+      },
+      "DiscUtils.Registry/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Streams": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Registry.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Registry.dll": {}
+        }
+      },
+      "DiscUtils.Sdi/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Sdi.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Sdi.dll": {}
+        }
+      },
+      "DiscUtils.SquashFs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.SquashFs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.SquashFs.dll": {}
+        }
+      },
+      "DiscUtils.Streams/0.16.13": {
+        "type": "package",
+        "compile": {
+          "lib/net40/DiscUtils.Streams.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Streams.dll": {}
+        }
+      },
+      "DiscUtils.Swap/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Swap.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Swap.dll": {}
+        }
+      },
+      "DiscUtils.Udf/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Iso9660": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Udf.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Udf.dll": {}
+        }
+      },
+      "DiscUtils.Vdi/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Vdi.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Vdi.dll": {}
+        }
+      },
+      "DiscUtils.Vhd/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Vhd.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Vhd.dll": {}
+        }
+      },
+      "DiscUtils.Vhdx/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Vhdx.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Vhdx.dll": {}
+        }
+      },
+      "DiscUtils.Vmdk/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Vmdk.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Vmdk.dll": {}
+        }
+      },
+      "DiscUtils.Wim/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Wim.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Wim.dll": {}
+        }
+      },
+      "DiscUtils.Xfs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Xfs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Xfs.dll": {}
+        }
+      },
+      "DiscUtils.Xva/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Xva.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Xva.dll": {}
+        }
+      },
+      "ILMerge/3.0.41": {
+        "type": "package",
+        "build": {
+          "build/ILMerge.props": {}
+        }
+      },
+      "ILMerge.MSBuild.Task/1.0.7": {
+        "type": "package",
+        "build": {
+          "build/ILMerge.MSBuild.Task.targets": {}
+        }
+      },
+      "lzfse-net/1.0.15": {
+        "type": "package",
+        "compile": {
+          "lib/net40/lzfse-net.dll": {}
+        },
+        "runtime": {
+          "lib/net40/lzfse-net.dll": {}
+        },
+        "native": {
+          "runtimes/win-x64/native/lzfse.dll": {}
+        }
+      },
+      "lzo.net/0.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net40/lzo.net.dll": {}
+        },
+        "runtime": {
+          "lib/net40/lzo.net.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0/win-x86": {
+      "DiscUtils/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.BootConfig": "0.16.13",
+          "DiscUtils.Btrfs": "0.16.13",
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Dmg": "0.16.13",
+          "DiscUtils.Ext": "0.16.13",
+          "DiscUtils.Fat": "0.16.13",
+          "DiscUtils.HfsPlus": "0.16.13",
+          "DiscUtils.Iscsi": "0.16.13",
+          "DiscUtils.Iso9660": "0.16.13",
+          "DiscUtils.Lvm": "0.16.13",
+          "DiscUtils.Net": "0.16.13",
+          "DiscUtils.Nfs": "0.16.13",
+          "DiscUtils.Ntfs": "0.16.13",
+          "DiscUtils.OpticalDiscSharing": "0.16.13",
+          "DiscUtils.OpticalDisk": "0.16.13",
+          "DiscUtils.Registry": "0.16.13",
+          "DiscUtils.Sdi": "0.16.13",
+          "DiscUtils.SquashFs": "0.16.13",
+          "DiscUtils.Swap": "0.16.13",
+          "DiscUtils.Udf": "0.16.13",
+          "DiscUtils.Vdi": "0.16.13",
+          "DiscUtils.Vhd": "0.16.13",
+          "DiscUtils.Vhdx": "0.16.13",
+          "DiscUtils.Vmdk": "0.16.13",
+          "DiscUtils.Wim": "0.16.13",
+          "DiscUtils.Xfs": "0.16.13",
+          "DiscUtils.Xva": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.dll": {}
+        }
+      },
+      "DiscUtils.BootConfig/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Registry": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.BootConfig.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.BootConfig.dll": {}
+        }
+      },
+      "DiscUtils.Btrfs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Streams": "0.16.13",
+          "lzo.net": "0.0.3"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Btrfs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Btrfs.dll": {}
+        }
+      },
+      "DiscUtils.Core/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Streams": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Core.dll": {}
+        }
+      },
+      "DiscUtils.Dmg/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "lzfse-net": "1.0.15"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Dmg.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Dmg.dll": {}
+        }
+      },
+      "DiscUtils.Ext/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Ext.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Ext.dll": {}
+        }
+      },
+      "DiscUtils.Fat/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Fat.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Fat.dll": {}
+        }
+      },
+      "DiscUtils.HfsPlus/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.HfsPlus.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.HfsPlus.dll": {}
+        }
+      },
+      "DiscUtils.Iscsi/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Iscsi.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Iscsi.dll": {}
+        }
+      },
+      "DiscUtils.Iso9660/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Iso9660.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Iso9660.dll": {}
+        }
+      },
+      "DiscUtils.Lvm/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Lvm.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Lvm.dll": {}
+        }
+      },
+      "DiscUtils.Net/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Net.dll": {}
+        }
+      },
+      "DiscUtils.Nfs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Nfs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Nfs.dll": {}
+        }
+      },
+      "DiscUtils.Ntfs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Ntfs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Ntfs.dll": {}
+        }
+      },
+      "DiscUtils.OpticalDiscSharing/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Net": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.OpticalDiscSharing.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.OpticalDiscSharing.dll": {}
+        }
+      },
+      "DiscUtils.OpticalDisk/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Iso9660": "0.16.13",
+          "DiscUtils.Udf": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.OpticalDisk.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.OpticalDisk.dll": {}
+        }
+      },
+      "DiscUtils.Registry/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Streams": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Registry.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Registry.dll": {}
+        }
+      },
+      "DiscUtils.Sdi/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Sdi.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Sdi.dll": {}
+        }
+      },
+      "DiscUtils.SquashFs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.SquashFs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.SquashFs.dll": {}
+        }
+      },
+      "DiscUtils.Streams/0.16.13": {
+        "type": "package",
+        "compile": {
+          "lib/net40/DiscUtils.Streams.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Streams.dll": {}
+        }
+      },
+      "DiscUtils.Swap/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Swap.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Swap.dll": {}
+        }
+      },
+      "DiscUtils.Udf/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13",
+          "DiscUtils.Iso9660": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Udf.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Udf.dll": {}
+        }
+      },
+      "DiscUtils.Vdi/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Vdi.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Vdi.dll": {}
+        }
+      },
+      "DiscUtils.Vhd/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Vhd.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Vhd.dll": {}
+        }
+      },
+      "DiscUtils.Vhdx/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Vhdx.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Vhdx.dll": {}
+        }
+      },
+      "DiscUtils.Vmdk/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Vmdk.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Vmdk.dll": {}
+        }
+      },
+      "DiscUtils.Wim/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Wim.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Wim.dll": {}
+        }
+      },
+      "DiscUtils.Xfs/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Xfs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Xfs.dll": {}
+        }
+      },
+      "DiscUtils.Xva/0.16.13": {
+        "type": "package",
+        "dependencies": {
+          "DiscUtils.Core": "0.16.13"
+        },
+        "compile": {
+          "lib/net40/DiscUtils.Xva.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DiscUtils.Xva.dll": {}
+        }
+      },
+      "ILMerge/3.0.41": {
+        "type": "package",
+        "build": {
+          "build/ILMerge.props": {}
+        }
+      },
+      "ILMerge.MSBuild.Task/1.0.7": {
+        "type": "package",
+        "build": {
+          "build/ILMerge.MSBuild.Task.targets": {}
+        }
+      },
+      "lzfse-net/1.0.15": {
+        "type": "package",
+        "compile": {
+          "lib/net40/lzfse-net.dll": {}
+        },
+        "runtime": {
+          "lib/net40/lzfse-net.dll": {}
+        },
+        "native": {
+          "runtimes/win-x86/native/lzfse.dll": {}
+        }
+      },
+      "lzo.net/0.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net40/lzo.net.dll": {}
+        },
+        "runtime": {
+          "lib/net40/lzo.net.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DiscUtils/0.16.13": {
+      "sha512": "ajWM3CGr9bhzhjAtUTDLKokQP5IE+jV/pXNhxf6XUB0E7K5vnnehZlwIPg7+PSSMlRFtAazzw5D23i2HD5R56A==",
+      "type": "package",
+      "path": "discutils/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.0.16.13.nupkg.sha512",
+        "discutils.nuspec",
+        "lib/net40/DiscUtils.dll",
+        "lib/net40/DiscUtils.xml",
+        "lib/net45/DiscUtils.dll",
+        "lib/net45/DiscUtils.xml",
+        "lib/net5.0/DiscUtils.dll",
+        "lib/net5.0/DiscUtils.xml",
+        "lib/netstandard2.0/DiscUtils.dll",
+        "lib/netstandard2.0/DiscUtils.xml"
+      ]
+    },
+    "DiscUtils.BootConfig/0.16.13": {
+      "sha512": "5nj/Surv7IT2jaTuPZ+yiQx4zYNGgq7t4n0jo7/2VXVDjNgKiZd3k9mtfb/uH/r7wzrkSzUS6NJWboowYMsJTA==",
+      "type": "package",
+      "path": "discutils.bootconfig/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.bootconfig.0.16.13.nupkg.sha512",
+        "discutils.bootconfig.nuspec",
+        "lib/net40/DiscUtils.BootConfig.dll",
+        "lib/net40/DiscUtils.BootConfig.xml",
+        "lib/net45/DiscUtils.BootConfig.dll",
+        "lib/net45/DiscUtils.BootConfig.xml",
+        "lib/net5.0/DiscUtils.BootConfig.dll",
+        "lib/net5.0/DiscUtils.BootConfig.xml",
+        "lib/netstandard2.0/DiscUtils.BootConfig.dll",
+        "lib/netstandard2.0/DiscUtils.BootConfig.xml"
+      ]
+    },
+    "DiscUtils.Btrfs/0.16.13": {
+      "sha512": "JdIkXgqGl/XvxokDweYMXd6KVtvYXlLSqH3LbgtqZQFusZqhDv/WVzu+JLHKkDT87zihhiYIVK/OJC4F1Mw/DA==",
+      "type": "package",
+      "path": "discutils.btrfs/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.btrfs.0.16.13.nupkg.sha512",
+        "discutils.btrfs.nuspec",
+        "lib/net40/DiscUtils.Btrfs.dll",
+        "lib/net40/DiscUtils.Btrfs.xml",
+        "lib/net45/DiscUtils.Btrfs.dll",
+        "lib/net45/DiscUtils.Btrfs.xml",
+        "lib/net5.0/DiscUtils.Btrfs.dll",
+        "lib/net5.0/DiscUtils.Btrfs.xml",
+        "lib/netstandard2.0/DiscUtils.Btrfs.dll",
+        "lib/netstandard2.0/DiscUtils.Btrfs.xml"
+      ]
+    },
+    "DiscUtils.Core/0.16.13": {
+      "sha512": "TU/Ns5RMa3060K7AsSDqG94/H7eaWaz1XoYuCUur40Mg+t0/ubtKqxCffkoiB1e/cFMGvHL0evFoY6uDL9Ocmw==",
+      "type": "package",
+      "path": "discutils.core/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.core.0.16.13.nupkg.sha512",
+        "discutils.core.nuspec",
+        "lib/net40/DiscUtils.Core.dll",
+        "lib/net40/DiscUtils.Core.xml",
+        "lib/net45/DiscUtils.Core.dll",
+        "lib/net45/DiscUtils.Core.xml",
+        "lib/net5.0/DiscUtils.Core.dll",
+        "lib/net5.0/DiscUtils.Core.xml",
+        "lib/netstandard2.0/DiscUtils.Core.dll",
+        "lib/netstandard2.0/DiscUtils.Core.xml"
+      ]
+    },
+    "DiscUtils.Dmg/0.16.13": {
+      "sha512": "cyHlDi93px+RQJ0D2rIZ6hckQJbWcmB/Q7g5QcvLsccmonS0uPZuOasQwzPzHldL1L5d82c1+PEA9zFnhy0Kig==",
+      "type": "package",
+      "path": "discutils.dmg/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.dmg.0.16.13.nupkg.sha512",
+        "discutils.dmg.nuspec",
+        "lib/net40/DiscUtils.Dmg.dll",
+        "lib/net40/DiscUtils.Dmg.xml",
+        "lib/net45/DiscUtils.Dmg.dll",
+        "lib/net45/DiscUtils.Dmg.xml",
+        "lib/net5.0/DiscUtils.Dmg.dll",
+        "lib/net5.0/DiscUtils.Dmg.xml",
+        "lib/netstandard2.0/DiscUtils.Dmg.dll",
+        "lib/netstandard2.0/DiscUtils.Dmg.xml"
+      ]
+    },
+    "DiscUtils.Ext/0.16.13": {
+      "sha512": "eRomHwL21AAtHY9rA1beaN7+dVj9ZKwvGlEk2m0syxok4obLESVJyz5OYwbxxuCNyKmdSMpLOqKIV5ZNxFK7yQ==",
+      "type": "package",
+      "path": "discutils.ext/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.ext.0.16.13.nupkg.sha512",
+        "discutils.ext.nuspec",
+        "lib/net40/DiscUtils.Ext.dll",
+        "lib/net40/DiscUtils.Ext.xml",
+        "lib/net45/DiscUtils.Ext.dll",
+        "lib/net45/DiscUtils.Ext.xml",
+        "lib/net5.0/DiscUtils.Ext.dll",
+        "lib/net5.0/DiscUtils.Ext.xml",
+        "lib/netstandard2.0/DiscUtils.Ext.dll",
+        "lib/netstandard2.0/DiscUtils.Ext.xml"
+      ]
+    },
+    "DiscUtils.Fat/0.16.13": {
+      "sha512": "Ch29amFF0dMBwHuq4Tuu1ycXzRpNY+8K8BMvGyMjJyrYQaNh0y99MNYEDQJK7lG9f8ih+PEWljLyp5AjR/SDlw==",
+      "type": "package",
+      "path": "discutils.fat/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.fat.0.16.13.nupkg.sha512",
+        "discutils.fat.nuspec",
+        "lib/net40/DiscUtils.Fat.dll",
+        "lib/net40/DiscUtils.Fat.xml",
+        "lib/net45/DiscUtils.Fat.dll",
+        "lib/net45/DiscUtils.Fat.xml",
+        "lib/net5.0/DiscUtils.Fat.dll",
+        "lib/net5.0/DiscUtils.Fat.xml",
+        "lib/netstandard2.0/DiscUtils.Fat.dll",
+        "lib/netstandard2.0/DiscUtils.Fat.xml"
+      ]
+    },
+    "DiscUtils.HfsPlus/0.16.13": {
+      "sha512": "sJ2NLMEx1pY/KzSXOrFnxSlEbU2WTkR1bIl1YdGgGsNWH7UKXTlfFOqSViswHWs2P8qKGA9cvRfjLeqdEewJ6A==",
+      "type": "package",
+      "path": "discutils.hfsplus/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.hfsplus.0.16.13.nupkg.sha512",
+        "discutils.hfsplus.nuspec",
+        "lib/net40/DiscUtils.HfsPlus.dll",
+        "lib/net40/DiscUtils.HfsPlus.xml",
+        "lib/net45/DiscUtils.HfsPlus.dll",
+        "lib/net45/DiscUtils.HfsPlus.xml",
+        "lib/net5.0/DiscUtils.HfsPlus.dll",
+        "lib/net5.0/DiscUtils.HfsPlus.xml",
+        "lib/netstandard2.0/DiscUtils.HfsPlus.dll",
+        "lib/netstandard2.0/DiscUtils.HfsPlus.xml"
+      ]
+    },
+    "DiscUtils.Iscsi/0.16.13": {
+      "sha512": "d0R6nB30thHvmWYwQ2sUI3iFzZYOjg3bbE3X6bSZxqcMJ0YiqobO4p2AVLaxJ9e3APJizA9CyUtY7bO5FxayTw==",
+      "type": "package",
+      "path": "discutils.iscsi/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.iscsi.0.16.13.nupkg.sha512",
+        "discutils.iscsi.nuspec",
+        "lib/net40/DiscUtils.Iscsi.dll",
+        "lib/net40/DiscUtils.Iscsi.xml",
+        "lib/net45/DiscUtils.Iscsi.dll",
+        "lib/net45/DiscUtils.Iscsi.xml",
+        "lib/net5.0/DiscUtils.Iscsi.dll",
+        "lib/net5.0/DiscUtils.Iscsi.xml",
+        "lib/netstandard2.0/DiscUtils.Iscsi.dll",
+        "lib/netstandard2.0/DiscUtils.Iscsi.xml"
+      ]
+    },
+    "DiscUtils.Iso9660/0.16.13": {
+      "sha512": "hT0DbN+sIqg5Bu3/sCQUuKLwIrceF9BZvn7AeRe+f2iY0p4mgN9xEmXpFWQshnBBxN9r75364agBHDeb5owiUA==",
+      "type": "package",
+      "path": "discutils.iso9660/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.iso9660.0.16.13.nupkg.sha512",
+        "discutils.iso9660.nuspec",
+        "lib/net40/DiscUtils.Iso9660.dll",
+        "lib/net40/DiscUtils.Iso9660.xml",
+        "lib/net45/DiscUtils.Iso9660.dll",
+        "lib/net45/DiscUtils.Iso9660.xml",
+        "lib/net5.0/DiscUtils.Iso9660.dll",
+        "lib/net5.0/DiscUtils.Iso9660.xml",
+        "lib/netstandard2.0/DiscUtils.Iso9660.dll",
+        "lib/netstandard2.0/DiscUtils.Iso9660.xml"
+      ]
+    },
+    "DiscUtils.Lvm/0.16.13": {
+      "sha512": "uoXwmszdWjTF/r5wB6pI4jIka3uHUKZcxL6jzD5GqlIVUrOGwMVs5rfC8RIB3KHSVMuAbispJ86+jHbztDIJ9A==",
+      "type": "package",
+      "path": "discutils.lvm/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.lvm.0.16.13.nupkg.sha512",
+        "discutils.lvm.nuspec",
+        "lib/net40/DiscUtils.Lvm.dll",
+        "lib/net40/DiscUtils.Lvm.xml",
+        "lib/net45/DiscUtils.Lvm.dll",
+        "lib/net45/DiscUtils.Lvm.xml",
+        "lib/net5.0/DiscUtils.Lvm.dll",
+        "lib/net5.0/DiscUtils.Lvm.xml",
+        "lib/netstandard2.0/DiscUtils.Lvm.dll",
+        "lib/netstandard2.0/DiscUtils.Lvm.xml"
+      ]
+    },
+    "DiscUtils.Net/0.16.13": {
+      "sha512": "qARg5OFZ9F2s1ul9yZWkS6B8Lx28IXOgDaEhSKxT2jSr2euBMt1ypSzOaB76Bbvt+/6vomE0yLZdWeUcxjvpsg==",
+      "type": "package",
+      "path": "discutils.net/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.net.0.16.13.nupkg.sha512",
+        "discutils.net.nuspec",
+        "lib/net40/DiscUtils.Net.dll",
+        "lib/net40/DiscUtils.Net.xml",
+        "lib/net45/DiscUtils.Net.dll",
+        "lib/net45/DiscUtils.Net.xml",
+        "lib/net5.0/DiscUtils.Net.dll",
+        "lib/net5.0/DiscUtils.Net.xml",
+        "lib/netstandard2.0/DiscUtils.Net.dll",
+        "lib/netstandard2.0/DiscUtils.Net.xml"
+      ]
+    },
+    "DiscUtils.Nfs/0.16.13": {
+      "sha512": "eHsHklvmI0jbglHCRhktyaLEPQVKG9q1QRsBVnGhTkOIRsbMKqTyeJZ1m19ntXgkqczR5YDQFfTZCznHsUcQKQ==",
+      "type": "package",
+      "path": "discutils.nfs/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.nfs.0.16.13.nupkg.sha512",
+        "discutils.nfs.nuspec",
+        "lib/net40/DiscUtils.Nfs.dll",
+        "lib/net40/DiscUtils.Nfs.xml",
+        "lib/net45/DiscUtils.Nfs.dll",
+        "lib/net45/DiscUtils.Nfs.xml",
+        "lib/net5.0/DiscUtils.Nfs.dll",
+        "lib/net5.0/DiscUtils.Nfs.xml",
+        "lib/netstandard2.0/DiscUtils.Nfs.dll",
+        "lib/netstandard2.0/DiscUtils.Nfs.xml"
+      ]
+    },
+    "DiscUtils.Ntfs/0.16.13": {
+      "sha512": "K7e2KJ7TjDI566SXBnLBfmRPWDqMjb/0T6UMdY+BzyWfiQJVpBQ0BMO89kuvknbz17zTSi1TDLiT9GOOJEpUCg==",
+      "type": "package",
+      "path": "discutils.ntfs/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.ntfs.0.16.13.nupkg.sha512",
+        "discutils.ntfs.nuspec",
+        "lib/net40/DiscUtils.Ntfs.dll",
+        "lib/net40/DiscUtils.Ntfs.xml",
+        "lib/net45/DiscUtils.Ntfs.dll",
+        "lib/net45/DiscUtils.Ntfs.xml",
+        "lib/net5.0/DiscUtils.Ntfs.dll",
+        "lib/net5.0/DiscUtils.Ntfs.xml",
+        "lib/netstandard2.0/DiscUtils.Ntfs.dll",
+        "lib/netstandard2.0/DiscUtils.Ntfs.xml"
+      ]
+    },
+    "DiscUtils.OpticalDiscSharing/0.16.13": {
+      "sha512": "+hz1hTa3pIpfI40P0YxZFx+3UNedliPtpfh9naFL7LHZBmCwSk5zLj8e9lHazpKYdXdUzfZrG8ddhX+Yh7WWdQ==",
+      "type": "package",
+      "path": "discutils.opticaldiscsharing/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.opticaldiscsharing.0.16.13.nupkg.sha512",
+        "discutils.opticaldiscsharing.nuspec",
+        "lib/net40/DiscUtils.OpticalDiscSharing.dll",
+        "lib/net40/DiscUtils.OpticalDiscSharing.xml",
+        "lib/net45/DiscUtils.OpticalDiscSharing.dll",
+        "lib/net45/DiscUtils.OpticalDiscSharing.xml",
+        "lib/net5.0/DiscUtils.OpticalDiscSharing.dll",
+        "lib/net5.0/DiscUtils.OpticalDiscSharing.xml",
+        "lib/netstandard2.0/DiscUtils.OpticalDiscSharing.dll",
+        "lib/netstandard2.0/DiscUtils.OpticalDiscSharing.xml"
+      ]
+    },
+    "DiscUtils.OpticalDisk/0.16.13": {
+      "sha512": "y2gth1XBxdlEeZxBq8+BwgjmpuBGzHGKJDTXC93Z5lcXAEkgvtrytrJetNTxxLuOF1SsSAhJhiR4zeCl8vWk2A==",
+      "type": "package",
+      "path": "discutils.opticaldisk/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.opticaldisk.0.16.13.nupkg.sha512",
+        "discutils.opticaldisk.nuspec",
+        "lib/net40/DiscUtils.OpticalDisk.dll",
+        "lib/net40/DiscUtils.OpticalDisk.xml",
+        "lib/net45/DiscUtils.OpticalDisk.dll",
+        "lib/net45/DiscUtils.OpticalDisk.xml",
+        "lib/net5.0/DiscUtils.OpticalDisk.dll",
+        "lib/net5.0/DiscUtils.OpticalDisk.xml",
+        "lib/netstandard2.0/DiscUtils.OpticalDisk.dll",
+        "lib/netstandard2.0/DiscUtils.OpticalDisk.xml"
+      ]
+    },
+    "DiscUtils.Registry/0.16.13": {
+      "sha512": "866rnsQ9oXCGvhLmLUSJfLqwljX94UNh2oUe3Jg3VS8163K+bOy8pbeKM1QHYBYVRoEIP/Zr+DyE3lDL5mB/Ag==",
+      "type": "package",
+      "path": "discutils.registry/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.registry.0.16.13.nupkg.sha512",
+        "discutils.registry.nuspec",
+        "lib/net40/DiscUtils.Registry.dll",
+        "lib/net40/DiscUtils.Registry.xml",
+        "lib/net45/DiscUtils.Registry.dll",
+        "lib/net45/DiscUtils.Registry.xml",
+        "lib/net5.0/DiscUtils.Registry.dll",
+        "lib/net5.0/DiscUtils.Registry.xml",
+        "lib/netstandard2.0/DiscUtils.Registry.dll",
+        "lib/netstandard2.0/DiscUtils.Registry.xml"
+      ]
+    },
+    "DiscUtils.Sdi/0.16.13": {
+      "sha512": "K8WX0txo1PU7zIBlJnABk4iIxgtL1FzcGHA2lfW0+hwcw4hYrRMY7pbLTpJdL2YqvI43fBPeojRedBUmKpLuRA==",
+      "type": "package",
+      "path": "discutils.sdi/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.sdi.0.16.13.nupkg.sha512",
+        "discutils.sdi.nuspec",
+        "lib/net40/DiscUtils.Sdi.dll",
+        "lib/net40/DiscUtils.Sdi.xml",
+        "lib/net45/DiscUtils.Sdi.dll",
+        "lib/net45/DiscUtils.Sdi.xml",
+        "lib/net5.0/DiscUtils.Sdi.dll",
+        "lib/net5.0/DiscUtils.Sdi.xml",
+        "lib/netstandard2.0/DiscUtils.Sdi.dll",
+        "lib/netstandard2.0/DiscUtils.Sdi.xml"
+      ]
+    },
+    "DiscUtils.SquashFs/0.16.13": {
+      "sha512": "1ce0l4RSVlzY/YvVkLy9bF3A2Pil2B+qxXG1gjeWINCsgPgNAMRxnzv1pUR5pLZws4+u3cbEY3v9ubSf9jpopA==",
+      "type": "package",
+      "path": "discutils.squashfs/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.squashfs.0.16.13.nupkg.sha512",
+        "discutils.squashfs.nuspec",
+        "lib/net40/DiscUtils.SquashFs.dll",
+        "lib/net40/DiscUtils.SquashFs.xml",
+        "lib/net45/DiscUtils.SquashFs.dll",
+        "lib/net45/DiscUtils.SquashFs.xml",
+        "lib/net5.0/DiscUtils.SquashFs.dll",
+        "lib/net5.0/DiscUtils.SquashFs.xml",
+        "lib/netstandard2.0/DiscUtils.SquashFs.dll",
+        "lib/netstandard2.0/DiscUtils.SquashFs.xml"
+      ]
+    },
+    "DiscUtils.Streams/0.16.13": {
+      "sha512": "BSrywAX2mmvt6j00u6VQYQLtxc6jDniK2aP4p0q20bbTGXImtW4N26eUZYKfkW9aj6XLaqISFgtWfssKURixeA==",
+      "type": "package",
+      "path": "discutils.streams/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.streams.0.16.13.nupkg.sha512",
+        "discutils.streams.nuspec",
+        "lib/net40/DiscUtils.Streams.dll",
+        "lib/net40/DiscUtils.Streams.xml",
+        "lib/net45/DiscUtils.Streams.dll",
+        "lib/net45/DiscUtils.Streams.xml",
+        "lib/net5.0/DiscUtils.Streams.dll",
+        "lib/net5.0/DiscUtils.Streams.xml",
+        "lib/netstandard2.0/DiscUtils.Streams.dll",
+        "lib/netstandard2.0/DiscUtils.Streams.xml"
+      ]
+    },
+    "DiscUtils.Swap/0.16.13": {
+      "sha512": "HozMI69HVa6gMUbOFNbSzvvOjvacL0UBngmzAQhTufEjDb9xVd4ef+wpFIskvTaf80Ag8MPtBlFf1w8kekigVg==",
+      "type": "package",
+      "path": "discutils.swap/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.swap.0.16.13.nupkg.sha512",
+        "discutils.swap.nuspec",
+        "lib/net40/DiscUtils.Swap.dll",
+        "lib/net40/DiscUtils.Swap.xml",
+        "lib/net45/DiscUtils.Swap.dll",
+        "lib/net45/DiscUtils.Swap.xml",
+        "lib/net5.0/DiscUtils.Swap.dll",
+        "lib/net5.0/DiscUtils.Swap.xml",
+        "lib/netstandard2.0/DiscUtils.Swap.dll",
+        "lib/netstandard2.0/DiscUtils.Swap.xml"
+      ]
+    },
+    "DiscUtils.Udf/0.16.13": {
+      "sha512": "wl8amQNP3N5VFB4wlLh76OXD2vGpFKuYb/RqqcwTPdE406mvQsLuxxPJB5E4orkjNDrpglLvi94WVr8FfWY2Uw==",
+      "type": "package",
+      "path": "discutils.udf/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.udf.0.16.13.nupkg.sha512",
+        "discutils.udf.nuspec",
+        "lib/net40/DiscUtils.Udf.dll",
+        "lib/net40/DiscUtils.Udf.xml",
+        "lib/net45/DiscUtils.Udf.dll",
+        "lib/net45/DiscUtils.Udf.xml",
+        "lib/net5.0/DiscUtils.Udf.dll",
+        "lib/net5.0/DiscUtils.Udf.xml",
+        "lib/netstandard2.0/DiscUtils.Udf.dll",
+        "lib/netstandard2.0/DiscUtils.Udf.xml"
+      ]
+    },
+    "DiscUtils.Vdi/0.16.13": {
+      "sha512": "A7M7s+xAO4erCwca5okmXuRpBLrVnAPEPa7oNd6j0qS0yGKZFW9I0rBrCglNqqKZoR7Ec9xG1nyS5nOTKRdvnQ==",
+      "type": "package",
+      "path": "discutils.vdi/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.vdi.0.16.13.nupkg.sha512",
+        "discutils.vdi.nuspec",
+        "lib/net40/DiscUtils.Vdi.dll",
+        "lib/net40/DiscUtils.Vdi.xml",
+        "lib/net45/DiscUtils.Vdi.dll",
+        "lib/net45/DiscUtils.Vdi.xml",
+        "lib/net5.0/DiscUtils.Vdi.dll",
+        "lib/net5.0/DiscUtils.Vdi.xml",
+        "lib/netstandard2.0/DiscUtils.Vdi.dll",
+        "lib/netstandard2.0/DiscUtils.Vdi.xml"
+      ]
+    },
+    "DiscUtils.Vhd/0.16.13": {
+      "sha512": "n1UIJU/9rYbkDTDGn6jQ23iKk9gGURoCzAKcQjVa3WZxWDqfhohgNh6BUc1B3gQN1WdP+vc6iCWfLrRCEODTGQ==",
+      "type": "package",
+      "path": "discutils.vhd/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.vhd.0.16.13.nupkg.sha512",
+        "discutils.vhd.nuspec",
+        "lib/net40/DiscUtils.Vhd.dll",
+        "lib/net40/DiscUtils.Vhd.xml",
+        "lib/net45/DiscUtils.Vhd.dll",
+        "lib/net45/DiscUtils.Vhd.xml",
+        "lib/net5.0/DiscUtils.Vhd.dll",
+        "lib/net5.0/DiscUtils.Vhd.xml",
+        "lib/netstandard2.0/DiscUtils.Vhd.dll",
+        "lib/netstandard2.0/DiscUtils.Vhd.xml"
+      ]
+    },
+    "DiscUtils.Vhdx/0.16.13": {
+      "sha512": "1i6FPceCsnHknc0nPT6uWWZQ2hfVOyhsft0gywWUMLBqZdHTct8+5fH0YfjPxGC89eaO2oeiUE0r4jsTjDZxGw==",
+      "type": "package",
+      "path": "discutils.vhdx/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.vhdx.0.16.13.nupkg.sha512",
+        "discutils.vhdx.nuspec",
+        "lib/net40/DiscUtils.Vhdx.dll",
+        "lib/net40/DiscUtils.Vhdx.xml",
+        "lib/net45/DiscUtils.Vhdx.dll",
+        "lib/net45/DiscUtils.Vhdx.xml",
+        "lib/net5.0/DiscUtils.Vhdx.dll",
+        "lib/net5.0/DiscUtils.Vhdx.xml",
+        "lib/netstandard2.0/DiscUtils.Vhdx.dll",
+        "lib/netstandard2.0/DiscUtils.Vhdx.xml"
+      ]
+    },
+    "DiscUtils.Vmdk/0.16.13": {
+      "sha512": "61iTWbOLf4ZPX18u8q/anMorTYyXUFHLGo+ceGG5SC1s7mWdxy/rWIJwHn3UCeMBfKY5tf5Tjv0wkCA/zwqJ+A==",
+      "type": "package",
+      "path": "discutils.vmdk/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.vmdk.0.16.13.nupkg.sha512",
+        "discutils.vmdk.nuspec",
+        "lib/net40/DiscUtils.Vmdk.dll",
+        "lib/net40/DiscUtils.Vmdk.xml",
+        "lib/net45/DiscUtils.Vmdk.dll",
+        "lib/net45/DiscUtils.Vmdk.xml",
+        "lib/net5.0/DiscUtils.Vmdk.dll",
+        "lib/net5.0/DiscUtils.Vmdk.xml",
+        "lib/netstandard2.0/DiscUtils.Vmdk.dll",
+        "lib/netstandard2.0/DiscUtils.Vmdk.xml"
+      ]
+    },
+    "DiscUtils.Wim/0.16.13": {
+      "sha512": "pdqlu6K1nDEWNzTZxwO28PdQymD7rEibg9WmIADJdoWg2PnlUoHMr724l/QuRFDXUafgYrsjGk1Ua5gDOm9Dzw==",
+      "type": "package",
+      "path": "discutils.wim/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.wim.0.16.13.nupkg.sha512",
+        "discutils.wim.nuspec",
+        "lib/net40/DiscUtils.Wim.dll",
+        "lib/net40/DiscUtils.Wim.xml",
+        "lib/net45/DiscUtils.Wim.dll",
+        "lib/net45/DiscUtils.Wim.xml",
+        "lib/net5.0/DiscUtils.Wim.dll",
+        "lib/net5.0/DiscUtils.Wim.xml",
+        "lib/netstandard2.0/DiscUtils.Wim.dll",
+        "lib/netstandard2.0/DiscUtils.Wim.xml"
+      ]
+    },
+    "DiscUtils.Xfs/0.16.13": {
+      "sha512": "hxjV4uiqS7E4SJ4hld7IPaCClyOxuoVsOA7SB1GNl0D5g5fg9yO4hGbTWHdH5yY//ZddAhgDiSZVoKR2r5l6qQ==",
+      "type": "package",
+      "path": "discutils.xfs/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.xfs.0.16.13.nupkg.sha512",
+        "discutils.xfs.nuspec",
+        "lib/net40/DiscUtils.Xfs.dll",
+        "lib/net40/DiscUtils.Xfs.xml",
+        "lib/net45/DiscUtils.Xfs.dll",
+        "lib/net45/DiscUtils.Xfs.xml",
+        "lib/net5.0/DiscUtils.Xfs.dll",
+        "lib/net5.0/DiscUtils.Xfs.xml",
+        "lib/netstandard2.0/DiscUtils.Xfs.dll",
+        "lib/netstandard2.0/DiscUtils.Xfs.xml"
+      ]
+    },
+    "DiscUtils.Xva/0.16.13": {
+      "sha512": "JYchemPAWPzsq+JYgOeCqAmKtJEFJpK6FiEPRhWsIizY7HIM7g58xNE73KHgVfxbGsJMx2ZUtfn2o8OPc0EjIQ==",
+      "type": "package",
+      "path": "discutils.xva/0.16.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discutils.xva.0.16.13.nupkg.sha512",
+        "discutils.xva.nuspec",
+        "lib/net40/DiscUtils.Xva.dll",
+        "lib/net40/DiscUtils.Xva.xml",
+        "lib/net45/DiscUtils.Xva.dll",
+        "lib/net45/DiscUtils.Xva.xml",
+        "lib/net5.0/DiscUtils.Xva.dll",
+        "lib/net5.0/DiscUtils.Xva.xml",
+        "lib/netstandard2.0/DiscUtils.Xva.dll",
+        "lib/netstandard2.0/DiscUtils.Xva.xml"
+      ]
+    },
+    "ILMerge/3.0.41": {
+      "sha512": "u9n45xs40bSGoNFcmMYJkh3zkGYKR4BqzQaX2uHc2Ay4drdiQOTeo/1ECps3ttDXOu4Q6qbTnsIbQWb/06ShqA==",
+      "type": "package",
+      "path": "ilmerge/3.0.41",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ILMerge.props",
+        "docs/ilmerge-manual.md",
+        "ilmerge.3.0.41.nupkg.sha512",
+        "ilmerge.nuspec",
+        "tools/net452/ILMerge.exe",
+        "tools/net452/System.Compiler.dll"
+      ]
+    },
+    "ILMerge.MSBuild.Task/1.0.7": {
+      "sha512": "v4sXnaIXOdcy0uJYpImkrfnO6iomxtJ8cCuO8psKFlUbnesszyEetbI4LLePh2ivrrf7y4ZWrLROuhlf+JxO0A==",
+      "type": "package",
+      "path": "ilmerge.msbuild.task/1.0.7",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ILMerge.MSBuild.Task.targets",
+        "ilmerge.msbuild.task.1.0.7.nupkg.sha512",
+        "ilmerge.msbuild.task.nuspec",
+        "tools/ILMerge.MsBuild.Task.dll",
+        "tools/ILMerge.MsBuild.Task.pdb"
+      ]
+    },
+    "lzfse-net/1.0.15": {
+      "sha512": "O5AhPNxnNhI9Ena8b+VJ1hhgNac8rRmd1rnYopSEWHetU/1Z5xOFPuWT4nxpy2u5Qk7evS5kFj1dRDhcArBtpg==",
+      "type": "package",
+      "path": "lzfse-net/1.0.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/lzfse-net.dll",
+        "lib/net20/lzfse-net.xml",
+        "lib/net40/lzfse-net.dll",
+        "lib/net40/lzfse-net.xml",
+        "lib/net45/lzfse-net.dll",
+        "lib/net45/lzfse-net.xml",
+        "lib/netstandard1.5/lzfse-net.dll",
+        "lib/netstandard1.5/lzfse-net.xml",
+        "lib/netstandard2.0/lzfse-net.dll",
+        "lib/netstandard2.0/lzfse-net.xml",
+        "lzfse-net.1.0.15.nupkg.sha512",
+        "lzfse-net.nuspec",
+        "runtimes/linux-arm64/native/liblzfse.so",
+        "runtimes/linux-musl-x64/native/liblzfse.so",
+        "runtimes/linux-x64/native/liblzfse.so",
+        "runtimes/osx-x64/native/liblzfse.dylib",
+        "runtimes/win-x64/native/lzfse.dll",
+        "runtimes/win-x86/native/lzfse.dll"
+      ]
+    },
+    "lzo.net/0.0.3": {
+      "sha512": "aSFZzACOckXj3hdWmt66nROHDGNdV233Xwjz/23TsnCrcmhDEBImv2rvGkfN/JEx+iAcX9uoABsfadc0O15bLA==",
+      "type": "package",
+      "path": "lzo.net/0.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/lzo.net.dll",
+        "lib/net40/lzo.net.dll",
+        "lib/net45/lzo.net.dll",
+        "lib/netstandard1.5/lzo.net.dll",
+        "lzo.net.0.0.3.nupkg.sha512",
+        "lzo.net.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.0": [
+      "DiscUtils >= 0.16.13",
+      "DiscUtils.Ntfs >= 0.16.13",
+      "DiscUtils.Vhdx >= 0.16.13",
+      "ILMerge >= 3.0.41",
+      "ILMerge.MSBuild.Task >= 1.0.7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\VmdkReader\\vmdk\\vmdk.csproj",
+      "projectName": "vmdk",
+      "projectPath": "C:\\Users\\Administrator\\source\\repos\\VmdkReader\\vmdk\\vmdk.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrator\\source\\repos\\VmdkReader\\vmdk\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net40"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net40": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net40": {
+        "dependencies": {
+          "DiscUtils": {
+            "target": "Package",
+            "version": "[0.16.13, )"
+          },
+          "DiscUtils.Ntfs": {
+            "target": "Package",
+            "version": "[0.16.13, )"
+          },
+          "DiscUtils.Vhdx": {
+            "target": "Package",
+            "version": "[0.16.13, )"
+          },
+          "ILMerge": {
+            "target": "Package",
+            "version": "[3.0.41, )"
+          },
+          "ILMerge.MSBuild.Task": {
+            "target": "Package",
+            "version": "[1.0.7, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

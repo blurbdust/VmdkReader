@@ -1,13 +1,9 @@
 ﻿using System;
 using System.IO;
-using DiscUtils;
-using DiscUtils.Ntfs;
-using DiscUtils.Setup;
-using DiscUtils.Vmdk;
 using System.Collections.Generic;
 using System.Linq;
-using DiscUtils.Ntfs.Internals;
-
+using DiscUtils;
+using DiscUtils.Ntfs;
 
 namespace vmdk
 {
@@ -18,9 +14,8 @@ namespace vmdk
 
         static void Main(string[] args)
         {
-            SetupHelper.RegisterAssembly(typeof(NtfsFileSystem).Assembly);
-            SetupHelper.RegisterAssembly(typeof(Disk).Assembly);
-            SetupHelper.RegisterAssembly(typeof(VirtualDiskManager).Assembly);
+            DiscUtils.Complete.SetupHelper.SetupComplete();
+
             if (args.Length != 0 && GetArgument(args, "--command").Length != 0)
             {
                 string command = GetArgument(args, "--command");
@@ -90,14 +85,14 @@ namespace vmdk
 
         }
 
-        public static void GetDirListing(string VMDKpath, string directory)
+        public static void GetDirListing(string path, string directory)
         {
-            if (File.Exists(VMDKpath))
+            if (File.Exists(path))
             {
                 try
                 {
                     VolumeManager volMgr = new VolumeManager();
-                    VirtualDisk vhdx = VirtualDisk.OpenDisk(VMDKpath, FileAccess.Read);
+                    VirtualDisk vhdx = VirtualDisk.OpenDisk(path, FileAccess.Read);
                     volMgr.AddDisk(vhdx);
                     VolumeInfo volInfo = null;
                     if (vhdx.Partitions.Count > 1)
@@ -189,9 +184,9 @@ namespace vmdk
             }
         }
 
-        public static void GetFile(string VMDKpath, string filepath, string destinationfile)
+        public static void GetFile(string path, string filepath, string destinationfile)
         {
-            if (File.Exists(VMDKpath) && Directory.Exists(Path.GetDirectoryName(destinationfile)))
+            if (File.Exists(path) && Directory.Exists(Path.GetDirectoryName(destinationfile)))
             {
                 if (Path.GetFileName(destinationfile) == "")
                 {
@@ -199,7 +194,7 @@ namespace vmdk
                 }
 
                 VolumeManager volMgr = new VolumeManager();
-                VirtualDisk vhdx = VirtualDisk.OpenDisk(VMDKpath, FileAccess.Read);
+                VirtualDisk vhdx = VirtualDisk.OpenDisk(path, FileAccess.Read);
                 volMgr.AddDisk(vhdx);
                 VolumeInfo volInfo = null;
                 if (vhdx.Partitions.Count > 1)
@@ -235,9 +230,9 @@ namespace vmdk
                                     {
                                         totalRead += bootStream.Read(file, totalRead, file.Length - totalRead);
                                         FileStream fileStream =
-                                            File.Create(destinationfile, (int) bootStream.Length);
+                                            File.Create(destinationfile, (int)bootStream.Length);
                                         bootStream.CopyTo(fileStream);
-                                        fileStream.Write(file, 0, (int) bootStream.Length);
+                                        fileStream.Write(file, 0, (int)bootStream.Length);
                                     }
 
                                     long destinationLength = new FileInfo(destinationfile).Length;
@@ -286,9 +281,9 @@ namespace vmdk
                                 while (totalRead < file.Length)
                                 {
                                     totalRead += bootStream.Read(file, totalRead, file.Length - totalRead);
-                                    FileStream fileStream = File.Create(destinationfile, (int) bootStream.Length);
+                                    FileStream fileStream = File.Create(destinationfile, (int)bootStream.Length);
                                     bootStream.CopyTo(fileStream);
-                                    fileStream.Write(file, 0, (int) bootStream.Length);
+                                    fileStream.Write(file, 0, (int)bootStream.Length);
                                 }
                             }
 

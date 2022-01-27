@@ -1,0 +1,12 @@
+C:\Users\Administrator\Source\Repos\VmdkReader\vmdk\bin\Debug\vmdk.exe.config
+C:\Users\Administrator\Source\Repos\VmdkReader\vmdk\bin\Debug\vmdk.exe
+C:\Users\Administrator\Source\Repos\VmdkReader\vmdk\bin\Debug\vmdk.pdb
+C:\Users\Administrator\Source\Repos\VmdkReader\vmdk\bin\Debug\DiscUtils.Core.dll
+C:\Users\Administrator\Source\Repos\VmdkReader\vmdk\bin\Debug\DiscUtils.Ntfs.dll
+C:\Users\Administrator\Source\Repos\VmdkReader\vmdk\bin\Debug\DiscUtils.Streams.dll
+C:\Users\Administrator\Source\Repos\VmdkReader\vmdk\bin\Debug\DiscUtils.Vmdk.dll
+C:\Users\Administrator\Source\Repos\VmdkReader\vmdk\obj\Debug\vmdk.csprojAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\VmdkReader\vmdk\obj\Debug\vmdk.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\VmdkReader\vmdk\obj\Debug\vmdk.csproj.CopyComplete
+C:\Users\Administrator\Source\Repos\VmdkReader\vmdk\obj\Debug\vmdk.exe
+C:\Users\Administrator\Source\Repos\VmdkReader\vmdk\obj\Debug\vmdk.pdb
