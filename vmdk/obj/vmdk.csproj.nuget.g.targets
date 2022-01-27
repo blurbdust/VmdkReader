@@ -4,6 +4,6 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)ilmerge.msbuild.task\1.0.7\build\ILMerge.MSBuild.Task.targets" Condition="Exists('$(NuGetPackageRoot)ilmerge.msbuild.task\1.0.7\build\ILMerge.MSBuild.Task.targets')" />
+    <Import Project="$(NuGetPackageRoot)dnmerge\0.5.15\build\dnMerge.targets" Condition="Exists('$(NuGetPackageRoot)dnmerge\0.5.15\build\dnMerge.targets')" />
   </ImportGroup>
 </Project>

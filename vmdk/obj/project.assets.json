@@ -382,16 +382,13 @@
           "lib/net40/DiscUtils.Xva.dll": {}
         }
       },
-      "ILMerge/3.0.41": {
+      "dnMerge/0.5.15": {
         "type": "package",
         "build": {
-          "build/ILMerge.props": {}
-        }
-      },
-      "ILMerge.MSBuild.Task/1.0.7": {
-        "type": "package",
-        "build": {
-          "build/ILMerge.MSBuild.Task.targets": {}
+          "build/dnMerge.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/dnMerge.targets": {}
         }
       },
       "lzfse-net/1.0.15": {
@@ -820,16 +817,13 @@
           "lib/net40/DiscUtils.Xva.dll": {}
         }
       },
-      "ILMerge/3.0.41": {
+      "dnMerge/0.5.15": {
         "type": "package",
         "build": {
-          "build/ILMerge.props": {}
-        }
-      },
-      "ILMerge.MSBuild.Task/1.0.7": {
-        "type": "package",
-        "build": {
-          "build/ILMerge.MSBuild.Task.targets": {}
+          "build/dnMerge.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/dnMerge.targets": {}
         }
       },
       "lzfse-net/1.0.15": {
@@ -1232,16 +1226,13 @@
           "lib/net40/DiscUtils.Xva.dll": {}
         }
       },
-      "ILMerge/3.0.41": {
+      "dnMerge/0.5.15": {
         "type": "package",
         "build": {
-          "build/ILMerge.props": {}
-        }
-      },
-      "ILMerge.MSBuild.Task/1.0.7": {
-        "type": "package",
-        "build": {
-          "build/ILMerge.MSBuild.Task.targets": {}
+          "build/dnMerge.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/dnMerge.targets": {}
         }
       },
       "lzfse-net/1.0.15": {
@@ -1647,16 +1638,13 @@
           "lib/net40/DiscUtils.Xva.dll": {}
         }
       },
-      "ILMerge/3.0.41": {
+      "dnMerge/0.5.15": {
         "type": "package",
         "build": {
-          "build/ILMerge.props": {}
-        }
-      },
-      "ILMerge.MSBuild.Task/1.0.7": {
-        "type": "package",
-        "build": {
-          "build/ILMerge.MSBuild.Task.targets": {}
+          "build/dnMerge.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/dnMerge.targets": {}
         }
       },
       "lzfse-net/1.0.15": {
@@ -2234,35 +2222,19 @@
         "lib/netstandard2.0/DiscUtils.Xva.xml"
       ]
     },
-    "ILMerge/3.0.41": {
-      "sha512": "u9n45xs40bSGoNFcmMYJkh3zkGYKR4BqzQaX2uHc2Ay4drdiQOTeo/1ECps3ttDXOu4Q6qbTnsIbQWb/06ShqA==",
+    "dnMerge/0.5.15": {
+      "sha512": "4DqfGKMUY37x8RQS1aMEuEWI+P7T5AVgq740PWZnsgJykl+5ozHxFHj0NuOcTkb2YSie3Hc1YTWWJxS9hCGCEQ==",
       "type": "package",
-      "path": "ilmerge/3.0.41",
-      "hasTools": true,
+      "path": "dnmerge/0.5.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/ILMerge.props",
-        "docs/ilmerge-manual.md",
-        "ilmerge.3.0.41.nupkg.sha512",
-        "ilmerge.nuspec",
-        "tools/net452/ILMerge.exe",
-        "tools/net452/System.Compiler.dll"
-      ]
-    },
-    "ILMerge.MSBuild.Task/1.0.7": {
-      "sha512": "v4sXnaIXOdcy0uJYpImkrfnO6iomxtJ8cCuO8psKFlUbnesszyEetbI4LLePh2ivrrf7y4ZWrLROuhlf+JxO0A==",
-      "type": "package",
-      "path": "ilmerge.msbuild.task/1.0.7",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/ILMerge.MSBuild.Task.targets",
-        "ilmerge.msbuild.task.1.0.7.nupkg.sha512",
-        "ilmerge.msbuild.task.nuspec",
-        "tools/ILMerge.MsBuild.Task.dll",
-        "tools/ILMerge.MsBuild.Task.pdb"
+        "build/dnMerge.targets",
+        "buildMultiTargeting/dnMerge.targets",
+        "dnmerge.0.5.15.nupkg.sha512",
+        "dnmerge.nuspec",
+        "tasks/net472/dnMerge.dll",
+        "tasks/netstandard2.1/dnMerge.dll"
       ]
     },
     "lzfse-net/1.0.15": {
@@ -2313,8 +2285,7 @@
       "DiscUtils >= 0.16.13",
       "DiscUtils.Ntfs >= 0.16.13",
       "DiscUtils.Vhdx >= 0.16.13",
-      "ILMerge >= 3.0.41",
-      "ILMerge.MSBuild.Task >= 1.0.7"
+      "dnMerge >= 0.5.15"
     ]
   },
   "packageFolders": {
@@ -2367,13 +2338,11 @@
             "target": "Package",
             "version": "[0.16.13, )"
           },
-          "ILMerge": {
+          "dnMerge": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
-            "version": "[3.0.41, )"
-          },
-          "ILMerge.MSBuild.Task": {
-            "target": "Package",
-            "version": "[1.0.7, )"
+            "version": "[0.5.15, )"
           }
         }
       }

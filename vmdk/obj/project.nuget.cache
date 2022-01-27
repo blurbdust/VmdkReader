@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mUORJ7CPuR2VjfhsYqmAjG4c0oVO/F8Fwx788VTJt/By8Q5FI/cXFrSu/guojgfZq0/ZI4mhxUKcifViIXqbRQ==",
+  "dgSpecHash": "6MCKNKg/+2Hy3lQVB1HWrAwnQYSzk+BE73veUoLnGUGuAkWj0MHCF4IOfS1ZdvrUOkFSzgW2+njnPiSrPdJQ4g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\VmdkReader\\vmdk\\vmdk.csproj",
   "expectedPackageFiles": [
@@ -33,8 +33,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\discutils.wim\\0.16.13\\discutils.wim.0.16.13.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\discutils.xfs\\0.16.13\\discutils.xfs.0.16.13.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\discutils.xva\\0.16.13\\discutils.xva.0.16.13.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\ilmerge\\3.0.41\\ilmerge.3.0.41.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\ilmerge.msbuild.task\\1.0.7\\ilmerge.msbuild.task.1.0.7.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\dnmerge\\0.5.15\\dnmerge.0.5.15.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\lzfse-net\\1.0.15\\lzfse-net.1.0.15.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\lzo.net\\0.0.3\\lzo.net.0.0.3.nupkg.sha512"
   ],

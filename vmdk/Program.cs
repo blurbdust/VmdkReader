@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace vmdk
 
         static void Main(string[] args)
         {
-            DiscUtils.Complete.SetupHelper.SetupComplete();
+            DiscUtils.Complete.SetupHelper.SetupComplete(); 
 
             if (args.Length != 0 && GetArgument(args, "--command").Length != 0)
             {
